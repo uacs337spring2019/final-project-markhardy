@@ -1,0 +1,19 @@
+{
+  "name": "vanilla",
+  "version": "10.15.3",
+  "description": "WikiVanilla",
+  "main": "vanilla.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.17.1",
+    "node": "^11.13.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node vanilla_service.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

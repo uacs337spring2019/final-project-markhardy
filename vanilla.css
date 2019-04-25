@@ -1,0 +1,134 @@
+/***************************************************************************
+vanilla.css
+
+CSS for Wiki Vanilla and its associated pages.
+
+Created by: Mark Hardy
+Last Updated: 4/24/2019
+***************************************************************************/
+body {
+	background-image: url("industrialbg.png");
+	background-repeat: no-repeat;
+	background-size: 100%, 100%;
+}
+
+h1 {
+	text-align: center;
+	vertical-align: middle;
+}
+
+h2 {
+	font-family: 'PT Sans Narrow', Arial, sans-serif;;
+}
+
+#middle {
+	color: #ffff00;
+	font-family: 'Exo', sans-serif;
+	margin-top: 20%;
+	text-align: center;
+}
+
+#results {
+	color: white;
+	font-family: 'Exo', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.even-row {
+	background-color: gray;
+}
+
+.odd-row {
+	background-color: black;
+}
+
+#stat_box {
+	background-color: black;
+	border-color: #ffffffff;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.4em;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+	width: 320px;
+}
+
+#loot {
+	margin-top: 400px;
+}
+
+.subclass {
+	float: right;
+}
+
+table {
+	border: 2px solid white;
+	border-collapse: collapse;
+	caption-side: top; 
+	margin: auto;
+	text-align: center;
+	width: 80%;
+}
+
+caption {
+	font-size: 20pt;
+	text-align: center;
+}
+
+td {
+	border: 1px solid white;
+	color: yellow;
+}
+
+th {
+	color: yellow;
+}
+
+input {
+	border-radius: 5px;
+	height: 25px;
+	width: 350px;
+}
+
+button {
+	border-radius: 5px;
+	height: 30px;
+	width: 75px;
+}
+
+/* Item Colors Corresponding to Quality */
+.artifact {
+	color: #e6cc80;
+}
+
+.legendary {
+	color: #ff8000;
+}
+
+.epic {
+	color: #a335ee;
+}
+
+.rare {
+	color: #0070dd;
+}
+
+.uncommon {
+	color: #1eff00;
+}
+
+.common {
+	color: #ffffffff;
+}
+
+.poor {
+	color: #9d9d9d;
+}
+/****************************************/
